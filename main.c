@@ -38,7 +38,7 @@ int main() {
         case 3:
             printf("Bitte Patientennummer eingeben: ");
             scanf("%d", &eingabe2);
-            printf("%f", compute_bmip(&patienten_db[eingabe2])); // & vergessen da wir mit pointern arbeiten
+            printf("%f", compute_bmip(&patienten_db[eingabe2])); // &patienten_db vergessen da wir mit pointern arbeiten
             break;
         case 4:
             printf("Bitte geben sie eine Patientennummer ein, ab welcher die Risikopatienten ausgegeben werden sollen!\n");
